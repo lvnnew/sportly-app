@@ -19,3 +19,13 @@ a {
   background-image: url("../public/mainBackground.jpg");
 }
 
+.itemBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+
+.itemImg {
+  margin: "10px";
+}

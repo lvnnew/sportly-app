@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography, Button, Stack } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import maestro from "../public/logos/maestro.png";
@@ -87,15 +87,58 @@ const Footer = () => {
           </Typography>
         </Box>
         <Box sx={{ marginTop: { xs: "40px", md: "0px" } }}>
-          <Image src={maestro} alt="maestro" width={80} height={40} />
-
-          <Image src={mastercard} alt="maestro" width={80} height={40} />
-
-          <Image src={mir} alt="maestro" width={80} height={40} />
-
-          <Image src={modulbank} alt="maestro" width={80} height={40} />
-
-          <Image src={visa} alt="maestro" width={80} height={40} />
+          <Box className="itemBox" sx={{ justifyContent: "right" }}>
+            <Image
+              className="itemImg"
+              src={mir}
+              alt="maestro"
+              width={80}
+              height={30}
+            />
+            <p
+              className="itemImg"
+              style={{
+                background: "#fff",
+                borderRadius: "5px",
+                marginLeft: "10px",
+              }}
+            >
+              <Image
+                className="itemImg"
+                src={modulbank}
+                alt="maestro"
+                width={100}
+                height={35}
+              />
+            </p>
+          </Box>
+          <Stack>
+            <Box className="itemBox" sx={{ justifyContent: "right" }}>
+              <p className="itemImg" style={{ marginRight: "10px" }}>
+                <Image src={maestro} alt="maestro" width={80} height={50} />
+              </p>
+              <Box className="itemImg">
+                <Image src={mastercard} alt="maestro" width={80} height={50} />
+              </Box>
+              <p
+                className="itemImg"
+                style={{
+                  background: "#fff",
+                  borderRadius: "5px",
+                  marginLeft: "10px",
+                }}
+              >
+                <Image src={visa} alt="maestro" width={80} height={40} />
+              </p>
+            </Box>
+            <Box className="itemBox" sx={{ justifyContent: "right" }}>
+              <Typography>
+                <Button href="" variant="text" sx={{ color: "#fff" }}>
+                  Порядок проведения оплаты
+                </Button>
+              </Typography>
+            </Box>
+          </Stack>
         </Box>
       </Box>
     </Box>
