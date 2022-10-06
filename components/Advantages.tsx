@@ -15,7 +15,7 @@ const Advantages = () => {
         flexDirection: "column",
         minHeight: "500px",
         margin: "80px 0px",
-        paddingBottom: '40px',
+        paddingBottom: "40px",
       }}
     >
       <Box
@@ -176,8 +176,8 @@ const Advantages = () => {
                   fontSize: "18px",
                 }}
               >
-                Подстраиваемся под каждую компанию, вникаем во "внутреннюю
-                кухню" и раскладываем все по полочкам
+                Подстраиваемся под каждую компанию, вникаем во &quot;внутреннюю
+                кухню&quot; и раскладываем все по полочкам
               </Typography>
             </Box>
           </Box>

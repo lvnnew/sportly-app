@@ -140,7 +140,7 @@ const Rates = () => {
                 Организация
               </Typography>
               <Typography sx={{ paddingTop: "10px" }}>
-                Всё из "Старта"
+                Всё из &quot;Старта&quot;
               </Typography>
 
               <Typography
@@ -216,7 +216,7 @@ const Rates = () => {
                 Корпорация
               </Typography>
               <Typography sx={{ paddingTop: "10px" }}>
-                Всё из "Организации"
+                Всё из &quot;Организации&quot;
               </Typography>
 
               <Typography

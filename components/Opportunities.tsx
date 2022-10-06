@@ -38,7 +38,7 @@ const Opportunities = () => {
         </Typography>
       </Box>
       <Box sx={{ margin: "80px 20px", color: "#4c4c4c" }}>
-        <Box display="flex" sx={{ margin: "20px 0px"}}>
+        <Box display="flex" sx={{ margin: "20px 0px" }}>
           <CheckIcon
             sx={{
               fontSize: { xs: "25px", md: "40px" },
