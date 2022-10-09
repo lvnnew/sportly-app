@@ -133,7 +133,12 @@ const Footer = () => {
             </Box>
             <Box className="itemBox" sx={{ justifyContent: "right" }}>
               <Typography>
-                <Button href="" variant="text" sx={{ color: "#fff" }}>
+                <Button
+                  href="https://docs.google.com/document/d/1Rem9Pb2d8T_ellHMRBOh431YOPYZYmPT/"
+                  target="_blank"
+                  variant="text"
+                  sx={{ color: "#fff" }}
+                >
                   Порядок проведения оплаты
                 </Button>
               </Typography>
