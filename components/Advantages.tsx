@@ -30,8 +30,8 @@ const Advantages = () => {
             textAlign: "center",
             fontSize: { xs: "24px", md: "40px" },
             fontWeight: "700",
-            color: "#4c4c4c",
-            border: "1px solid #4c4c4c",
+            color: "#0D1821",
+            border: "1px solid #0D1821",
             padding: { xs: "10px 10px", md: "10px 20px" },
             textTransform: "uppercase",
           }}
@@ -63,18 +63,18 @@ const Advantages = () => {
               background: "#EAE9E9",
               borderRadius: "10px",
               margin: "20px 20px",
-              minHeight: "125px",
+              minHeight: "160px",
               minWidth: { xs: "240px", md: "420px" },
               maxWidth: "420px",
               transition: "all .3s",
-              cursor: "pointer",
+              cursor: "default",
               ":hover": {
                 boxShadow: "0 0 20px #000",
               },
             }}
           >
             <Box sx={{ width: "100%" }}>
-              <FitnessCenterIcon fontSize="large" />
+              <FitnessCenterIcon fontSize="large" sx={{ color: "#0D1821" }} />
               <Typography
                 sx={{
                   marginTop: "10px",
@@ -94,18 +94,18 @@ const Advantages = () => {
               background: "#EAE9E9",
               borderRadius: "10px",
               margin: "20px 20px",
-              minHeight: "125px",
+              minHeight: "160px",
               minWidth: { xs: "240px", md: "420px" },
               maxWidth: "420px",
               transition: "all .3s",
-              cursor: "pointer",
+              cursor: "default",
               ":hover": {
                 boxShadow: "0 0 20px #000",
               },
             }}
           >
             <Box sx={{ width: "100%" }}>
-              <BusinessCenterIcon fontSize="large" />
+              <BusinessCenterIcon fontSize="large" sx={{ color: "#0D1821" }} />
               <Typography
                 sx={{
                   marginTop: "10px",
@@ -126,18 +126,21 @@ const Advantages = () => {
               background: "#EAE9E9",
               borderRadius: "10px",
               margin: "20px 20px",
-              minHeight: "125px",
+              minHeight: "160px",
               minWidth: { xs: "240px", md: "420px" },
               maxWidth: "420px",
               transition: "all .3s",
-              cursor: "pointer",
+              cursor: "default",
               ":hover": {
                 boxShadow: "0 0 20px #000",
               },
             }}
           >
             <Box sx={{ width: "100%" }}>
-              <CenterFocusStrongIcon fontSize="large" />
+              <CenterFocusStrongIcon
+                fontSize="large"
+                sx={{ color: "#0D1821" }}
+              />
               <Typography
                 sx={{
                   marginTop: "10px",
@@ -152,23 +155,26 @@ const Advantages = () => {
           <Box
             sx={{
               padding: "15px",
-              border: "none",
-              boxShadow: "0 0 10px #000",
               background: "#EAE9E9",
               borderRadius: "10px",
               margin: "20px 20px",
-              minHeight: "125px",
+              minHeight: "160px",
               minWidth: { xs: "240px", md: "420px" },
               maxWidth: "420px",
+              border: "none",
+              boxShadow: "0 0 10px #000",
               transition: "all .3s",
-              cursor: "pointer",
+              cursor: "default",
               ":hover": {
                 boxShadow: "0 0 20px #000",
               },
             }}
           >
             <Box sx={{ width: "100%" }}>
-              <FormatListNumberedIcon fontSize="large" />
+              <FormatListNumberedIcon
+                fontSize="large"
+                sx={{ color: "#0D1821" }}
+              />
               <Typography
                 sx={{
                   marginTop: "10px",

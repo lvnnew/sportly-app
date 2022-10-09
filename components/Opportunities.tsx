@@ -28,8 +28,8 @@ const Opportunities = () => {
             textAlign: "center",
             fontSize: { xs: "24px", md: "40px" },
             fontWeight: "700",
-            color: "#4c4c4c",
-            border: "1px solid #4c4c4c",
+            color: "#0D1821",
+            border: "1px solid #0D1821",
             padding: { xs: "10px 10px", md: "10px 20px" },
             textTransform: "uppercase",
           }}
@@ -37,7 +37,7 @@ const Opportunities = () => {
           Что может SPORTLY.APP?
         </Typography>
       </Box>
-      <Box sx={{ margin: "80px 20px", color: "#4c4c4c" }}>
+      <Box sx={{ margin: "80px 20px", color: "#0D1821" }}>
         <Box display="flex" sx={{ margin: "20px 0px" }}>
           <CheckIcon
             sx={{

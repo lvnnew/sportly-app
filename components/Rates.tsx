@@ -1,5 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
+import HomeIcon from "@mui/icons-material/Home";
+import HomeWorkIcon from "@mui/icons-material/HomeWork";
+import BusinessIcon from "@mui/icons-material/Business";
 
 const Rates = () => {
   return (
@@ -25,8 +28,8 @@ const Rates = () => {
             textAlign: "center",
             fontSize: { xs: "24px", md: "40px" },
             fontWeight: "700",
-            color: "#4c4c4c",
-            border: "1px solid #4c4c4c",
+            color: "#0D1821",
+            border: "1px solid #0D1821",
             padding: { xs: "10px 10px", md: "10px 20px" },
             marginBottom: "40px",
             textTransform: "uppercase",
@@ -54,6 +57,11 @@ const Rates = () => {
               margin: "20px",
               padding: "20px",
               boxShadow: "0 0 10px #000",
+              transition: "all .3s",
+              cursor: "default",
+              ":hover": {
+                boxShadow: "0 0 20px #000",
+              },
             }}
           >
             <Box
@@ -63,17 +71,24 @@ const Rates = () => {
                 textAlign: { xs: "center", md: "inherit" },
               }}
             >
-              <Typography
+              <Box
                 sx={{
-                  fontSize: "24px",
-                  fontWeight: "700",
-                  textTransform: "uppercase",
+                  display: "flex",
                   borderBottom: "1px solid #fff",
-                  paddingBottom: "10px",
                 }}
               >
-                Старт
-              </Typography>
+                <HomeIcon sx={{ fontSize: "31px", marginRight: "10px" }} />
+                <Typography
+                  sx={{
+                    fontSize: "24px",
+                    fontWeight: "700",
+                    textTransform: "uppercase",
+                    paddingBottom: "10px",
+                  }}
+                >
+                  Старт
+                </Typography>
+              </Box>
               <Typography sx={{ paddingTop: "10px" }}>
                 Контроль посещаемости
               </Typography>
@@ -120,6 +135,11 @@ const Rates = () => {
               margin: "20px",
               padding: "20px",
               boxShadow: "0 0 10px #000",
+              transition: "all .3s",
+              cursor: "default",
+              ":hover": {
+                boxShadow: "0 0 20px #000",
+              },
             }}
           >
             <Box
@@ -128,17 +148,24 @@ const Rates = () => {
                 textAlign: { xs: "center", md: "inherit" },
               }}
             >
-              <Typography
+              <Box
                 sx={{
-                  fontSize: "24px",
-                  fontWeight: "700",
-                  textTransform: "uppercase",
+                  display: "flex",
                   borderBottom: "1px solid #fff",
-                  paddingBottom: "10px",
                 }}
               >
-                Организация
-              </Typography>
+                <HomeWorkIcon sx={{ fontSize: "31px", marginRight: "10px" }} />
+                <Typography
+                  sx={{
+                    fontSize: "24px",
+                    fontWeight: "700",
+                    textTransform: "uppercase",
+                    paddingBottom: "10px",
+                  }}
+                >
+                  Организация
+                </Typography>
+              </Box>
               <Typography sx={{ paddingTop: "10px" }}>
                 Всё из &quot;Старта&quot;
               </Typography>
@@ -189,12 +216,17 @@ const Rates = () => {
           </Box>
           <Box
             sx={{
+              cursor: "default",
               background: "#0D1821",
               borderRadius: "10px",
               width: "100%",
               margin: "20px",
               padding: "20px",
               boxShadow: "0 0 10px #000",
+              transition: "all .3s",
+              ":hover": {
+                boxShadow: "0 0 20px #000",
+              },
             }}
           >
             <Box
@@ -204,17 +236,24 @@ const Rates = () => {
                 textAlign: { xs: "center", md: "inherit" },
               }}
             >
-              <Typography
+              <Box
                 sx={{
-                  fontSize: "24px",
-                  fontWeight: "700",
-                  textTransform: "uppercase",
+                  display: "flex",
                   borderBottom: "1px solid #fff",
-                  paddingBottom: "10px",
                 }}
               >
-                Корпорация
-              </Typography>
+                <BusinessIcon sx={{ fontSize: "31px", marginRight: "10px" }} />
+                <Typography
+                  sx={{
+                    fontSize: "24px",
+                    fontWeight: "700",
+                    textTransform: "uppercase",
+                    paddingBottom: "10px",
+                  }}
+                >
+                  Корпорация
+                </Typography>
+              </Box>
               <Typography sx={{ paddingTop: "10px" }}>
                 Всё из &quot;Организации&quot;
               </Typography>

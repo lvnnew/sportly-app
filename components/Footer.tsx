@@ -92,23 +92,23 @@ const Footer = () => {
               className="itemImg"
               src={mir}
               alt="maestro"
-              width={80}
-              height={30}
+              width={90}
+              height={40}
             />
             <p
               className="itemImg"
               style={{
                 background: "#fff",
                 borderRadius: "5px",
-                marginLeft: "10px",
+                marginLeft: "15px",
               }}
             >
               <Image
                 className="itemImg"
                 src={modulbank}
                 alt="maestro"
-                width={100}
-                height={35}
+                width={115}
+                height={40}
               />
             </p>
           </Box>
